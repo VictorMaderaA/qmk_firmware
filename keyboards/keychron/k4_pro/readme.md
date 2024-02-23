@@ -15,6 +15,8 @@ Make example for this keyboard (after setting up your build environment):
 Flashing example for this keyboard:
 
     make keychron/k4_pro/ansi/rgb:default:flash
+    
+    qmk compile -kb keychron/k4_pro/iso/rgb -km VictorMaderaA 
 
 **Reset Key**: Connect the USB cable, toggle mode switch to "Off", hold down the *Esc* key or reset button underneath space bar, then toggle then switch to "Cable".
 
